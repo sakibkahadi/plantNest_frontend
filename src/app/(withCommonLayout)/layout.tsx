@@ -1,3 +1,4 @@
+import Navbar from "@/components/Lui/Navbar";
 import { ReactNode } from "react";
 
 export default function MainLayout({ children }: { children: ReactNode }) {
@@ -8,6 +9,8 @@ export default function MainLayout({ children }: { children: ReactNode }) {
         Arribale, cart,accouunt, logo
       </h1>
       <h1>banner, searchbar, </h1>
+
+      <Navbar />
 
       {children}
     </div>
