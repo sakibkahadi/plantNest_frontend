@@ -1,34 +1,36 @@
 import Image from "next/image";
-import aboutImage from "../../../assets/about1-removebg-preview.png";
+import latest from "../../../assets/latest.webp";
 import Container from "@/components/Lui/Container";
-export default function AboutUs() {
+export default function LatestCollection() {
   return (
     <Container>
       <div className="grid  mx-auto  mt-20 grid-cols-1 lg:grid-cols-2  gap-10 ">
         {/* image section */}
-        <section className="flex order-2 lg:order-1 justify-center items-center">
+        <section className="flex order-2  justify-center items-center">
           {/* parent */}
           <div className="relative">
             {/* animation */}
-            <div className="bg-slate-300 lg:h-96 lg:w-80 h-64 w-56 relative hover:translate-x-6 hover:translate-y-4 transition-all duration-500 z-20">
+            <div className="lg:h-96 border lg:w-80 h-64 w-56 relative hover:translate-x-6 hover:-translate-y-4 transition-all duration-500 z-20">
               <Image
-                src={aboutImage}
+                src={latest}
                 alt="about"
-                height={300}
+                height={250}
                 width={150}
-                className="w-52 lg:w-80 absolute  -right-11 z-20 -bottom-10 "
+                className="lg:h-96 border lg:w-80 h-64 w-56"
               />
             </div>
-            <div className="border-4 border-slate-400   absolute bg-auto -right-14 top-10 z-0 lg:h-96 lg:w-80 h-64 w-56"></div>
+            <div className="border-4 border-t-amber-200 border-r-amber-200 border-b-green-300 border-l-green-300   absolute bg-auto -left-12 top-12 z-0 lg:h-96 lg:w-56 h-64 w-36"></div>
           </div>
         </section>
 
         {/* description section */}
-        <section className="flex order-1 lg:order-2 flex-col justify-center items-center lg:items-start text-center lg:text-start ">
+        <section className="flex order-1  flex-col justify-center  items-center lg:items-end text-center lg:text-end ">
           <header>
-            <h1 className="text-5xl tracking-wide font-light ">About Us</h1>
+            <h1 className="text-5xl tracking-wide font-light ">
+              Gold To Interest
+            </h1>
             <p className="uppercase tracking-wider text-slate-300 mt-2 font-extralight text-xl">
-              ours plant house
+              new collection
             </p>
           </header>
           <article className="mt-6 mb-4">
