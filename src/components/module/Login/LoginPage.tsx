@@ -18,8 +18,10 @@ const LoginForm = () => {
 
   // Handle form submission
   const onSubmit: SubmitHandler<LoginFormData> = (data) => {
-    console.log("Email:", data.email);
-    console.log("Password:", data.password);
+    const email = data?.email;
+    const password = data?.password;
+
+    console.log(email, password);
   };
 
   return (

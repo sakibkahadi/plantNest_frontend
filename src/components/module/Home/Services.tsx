@@ -28,7 +28,7 @@ export default function Services() {
             />
             <ServicesFragment
               color="bg-yellow-500"
-              heading="free shipping"
+              heading="Big saving"
               subHeading="It is a long established fact be that a reader will be!"
               src={icon2}
               textEnd="text-end"
@@ -51,13 +51,13 @@ export default function Services() {
             <ServicesFragment
               color="bg-emerald-500"
               rowReverse="flex flex-row-reverse"
-              heading="free shipping"
+              heading="24 x 7 support"
               subHeading="It is a long established fact be that a reader will be!"
               src={icon3}
             />
             <ServicesFragment
               color="bg-yellow-500"
-              heading="free shipping"
+              heading="Best offers"
               rowReverse="flex flex-row-reverse"
               subHeading="It is a long established fact be that a reader will be!"
               src={icon4}

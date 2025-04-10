@@ -1,4 +1,8 @@
-const imageUrls: string[] = [
+const imageUrls = [
+  "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/image/catalog/logo.png",
+  "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/catalog/language/en-gb/en-gb.png",
+  "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/catalog/language/ar-lb/ar-lb.png",
+  "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/image/cache/catalog/demo/banners/slider-01-1580x730.jpg",
   "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/image/cache/catalog/demo/banners/slider-02-1580x730.jpg",
   "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/image/catalog/demo/banners/cms-01.png",
   "https://opencart.templatetrip.com/OPC07/OPC190_nursery/OPC05/image/catalog/demo/banners/cms-02.jpg",
