@@ -16,11 +16,11 @@ export default function Heading({ heading, src }: THeading) {
           height={50}
           width={50}
         />
-        <h1 className="text-5xl  font-light  tracking-wide uppercase">
+        <h1 className=" text-2xl md:text-3xl lg:text-5xl  font-light  tracking-wide uppercase">
           {heading}
         </h1>
       </div>
-      <div className="border-t-2  mt-10  w-16  "></div>
+      <div className="border-t-2  mt-8  w-16  "></div>
     </header>
   );
 }
